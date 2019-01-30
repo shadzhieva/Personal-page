@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="initial-scale=1">
+<meta charset ="UTF-8" />
+</head>
+<title> HTML </title>
+<style>
+
+
+
+/*     For device width smaller than 600px: */
+body {
+  
+    background-repeat: no-repeat;
+
+    background-color:rgba(214, 237, 245, 0.95);
+	}
+
+
+/* For device width 600px and larger: */
+@media only screen and (min-device-width: 400px) {
+    body { 
+		background-attachment:fixed;
+       background-image: url('collage8.jpg'); 
+	  
+    }
+}
+
+.container
+{
+   padding-top:1%;
+   width:100%;
+   color:black;
+}
+
+.flex-container {
+    
+    position:relative;
+	width:65%;
+	height:120%;
+    background-color: rgba(214, 237, 245, 0.95);
+	margin:auto;
+	
+	
+	
+}
+.flex-container:after {
+  content: "";
+  display:block;
+ 
+
+}
+.flex {
+    position:relative;
+    max-width:50%;
+    max-height:35%;
+    top:0%;
+    left:50%;
+    overflow:visible;*/
+	
+}
+.logo {
+    position:relative;
+    max-width:100%;
+    max-height:100%;
+    margin-left:-50%;
+	margin-top:15%;
+
+}
+
+.f2
+{
+position:relative;
+font-family: 'Raleway';
+  color: black;
+  text-align: center;
+  font-size: 20px;
+padding-top: 10%;
+max-width: 70%;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+</style>
+
+
+<body>
+
+
+
+<div class="flex-container">
+<div class="container">   
+  
+  <ul class="nav nav-pills nav-justified" role="tablist">
+    <li class="active"><a href="#">За мен</a></li>
+    <li><a href="gallery.html">Галерия</a></li>
+    <li><a href="comment.html">Kоментари</a></li> 
+	
+    
+  </ul>
+</div>
+  <div class="flex"><img class="logo" src="image01.jpg" /></div>
+  <p class="f2" style="font-size: 2.1vw;">Здравейте!Казвам се Славея Петрова Хаджиева.Родом съм от Хасково.На 20 години съм и до сега съм разбрала за себе си, че много обичам да се занимавам с дизайн.Имам огромен интерес към уеб дизайна.Изключително любознателна съм и умея да работя много добре в екип,поради многобройните проекти и организационни събития,който съм предприемала в гимназията.Мисля, че с огромното ми желания за работа и нови знания ще компенсирам факта,че нямам опит в сферата. </p>
+  <div class="flex"></div>  
+</div>
+
+</body>
+</html>
